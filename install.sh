@@ -62,7 +62,7 @@ check_token() {
   echo -e "${YELLOW}𝗠𝗔𝗦𝗨𝗞𝗔𝗡 𝗔𝗞𝗦𝗘𝗦 𝗧𝗢𝗞𝗘𝗡 :${NC}"
   read -r USER_TOKEN
 
-  if [ "$USER_TOKEN" = "flixxjb" ]; then
+  if [ "$USER_TOKEN" = "flixbokep" ]; then
     echo -e "${GREEN}𝗔𝗞𝗦𝗘𝗦 𝗕𝗘𝗥𝗛𝗔𝗦𝗜𝗟${NC}}"
   else
     echo -e "${GREEN}𝗕𝘂𝘆 𝗗𝘂𝗹𝘂 𝗪𝗸𝘄𝗸𝘄𝗸 𝗗𝗶 𝗙𝗹𝗶𝘅𝘅𝗢𝗳𝗳𝗰 𝗧𝗲𝗹𝗲𝗴𝗿𝗮𝗺 @𝗙𝗹𝗶𝘅𝘅𝗢𝗳𝗳𝗶𝗰𝗶𝗮𝗹𝗹${NC}"
@@ -88,7 +88,7 @@ install_theme() {
     read -r SELECT_THEME
     case "$SELECT_THEME" in
       1)
-        THEME_URL=$(echo -e "https://github.com/FlixxOffc/thema/raw/main/C2.zip")
+        THEME_URL=$(echo -e "https://github.com/sasuke1845/flixxcode/raw/main/C2.zip")
         break
         ;;
       2)
@@ -96,7 +96,7 @@ install_theme() {
         break
         ;;
       3)
-        THEME_URL=$(echo -e "https://github.com/FlixxOffc/thema/raw/main/C3.zip")
+        THEME_URL=$(echo -e "https://github.com/sasuke1845/flixxcode/raw/main/C3.zip")
         break
         ;; 
       x)
@@ -241,7 +241,7 @@ echo -e "${BLUE}[+] =============================================== [+]${NC}"
 echo -e "                                                                   "
 
 # Unduh file tema
-wget -O /root/C2.zip https://github.com/FlixxOffc/thema/raw/main/C2.zip
+wget -O /root/C2.zip https://github.com/sasuke1845/flixxcode/raw/main/C2.zip
 
 # Ekstrak file tema
 unzip /root/C2.zip -d /root/pterodactyl
